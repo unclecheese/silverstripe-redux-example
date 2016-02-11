@@ -1,9 +1,9 @@
 /*eslint-disable */
 
 import { combineReducers } from 'redux';
-import {events} from './eventReducers';
+import {reducer} from './reducer';
 
 export const reducers = combineReducers({
-  events
+  reducer
 });
 /*eslint-enable */
