@@ -11,19 +11,10 @@
     <% include Page_Styles %>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
-    <% if $IsTablet %>
-        <meta name="viewport" content="width=1170">
-    <% else %>
-        <meta name="viewport" content="width=device-width">
-    <% end_if %>
+    <meta name="viewport" content="width=device-width">
 </head>
-
-<%-- Browser Support Page is rendered if the browser is less than IE9 - add class 'ie8-support' to body.browser-support-page to support IE8 --%>
 <body>
-    <main class="global-main" role="main">
-        $Layout
-        $Form
-    </main>
-    <% include Page_Scripts %>
+	<h1>Yo <span>hey</span></h1>
+    	<% include Page_Scripts %>
 </body>
 </html>
