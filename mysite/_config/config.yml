@@ -11,12 +11,3 @@ SiteTree:
 
 Image:
   force_resample: true
-
-BetterNavigator:
-    developers:
-      - 'dev@littlegiant.co.nz'
-      - 'webmaster@littlegiant.co.nz'
-
-Member:
-  log_num_visits: false
-  log_last_visited: false
